@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>无名之辈</title>
+      <link href="/2020/05/14/wu-ming-zhi-bei/"/>
+      <url>/2020/05/14/wu-ming-zhi-bei/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="致读者"><a href="#致读者" class="headerlink" title="致读者"></a>致读者</h2><div class="tabs" id="tab-id"><ul class="nav-tabs"><li class="tab active"><a href="#tab-id-1">作者信息</a></li><li class="tab"><a href="#tab-id-2">图片哦</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-id-1"><blockquote><p>致读者： 博主是一名数据科学与大数据专业大二的学生，真正的一个互联网萌新，<font color='#ffb6b9'>写博客一方面是为了记录自己的学习历程，一方面是希望能够帮助到很多和自己一样处于困惑的读者。</font>由于水平有限，博客中难免会有一些错误，有纰漏之处恳请各位大佬不吝赐教！之后会写大数据专业的文章哦。<font color='#ffb6b9'>尽管当前水平可能不及各位大佬，但我会尽我自己所能，做到最好☺</font>。——天地有正气，杂然赋流形。下则为河岳，上则为日星。</p></blockquote></div><div class="tab-pane" id="tab-id-2"><p><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/loading.gif" data-original="https://api.lyiqk.cn/purelady?cdd6a546" alt=""></p></div></div></div><h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><div style="position: relative; padding: 30% 45%;">2<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=149407340&aid=87442734&page=1&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>3</div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 感悟 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 感悟 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>动态分区存储管理</title>
+      <link href="/2020/05/14/ye-mian-zhi-huan-suan-fa/"/>
+      <url>/2020/05/14/ye-mian-zhi-huan-suan-fa/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="页面置换算法"><a href="#页面置换算法" class="headerlink" title="页面置换算法"></a>页面置换算法</h2><h3 id="OPT最佳置换算法"><a href="#OPT最佳置换算法" class="headerlink" title="OPT最佳置换算法"></a>OPT最佳置换算法</h3><p><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images//blog/image-20200514183505593.png" alt=""></p><h3 id="FIFO先进先出置换算法"><a href="#FIFO先进先出置换算法" class="headerlink" title="FIFO先进先出置换算法"></a>FIFO先进先出置换算法</h3><p><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images//blog/image-20200514184424316.png" alt=""></p><h3 id="LRU最近最久未使用置换算法"><a href="#LRU最近最久未使用置换算法" class="headerlink" title="LRU最近最久未使用置换算法"></a>LRU最近最久未使用置换算法</h3><p><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images//blog/image-20200514185145332.png" alt=""></p><h3 id="CLOCK时钟置换算法"><a href="#CLOCK时钟置换算法" class="headerlink" title="CLOCK时钟置换算法"></a>CLOCK时钟置换算法</h3><p><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images//blog/image-20200514185607798.png" alt=""></p><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><p><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images//blog/%E4%BE%8B%E9%A2%985.14.1.jpg" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/loading.gif" data-original="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images//blog/%E4%BE%8B%E9%A2%985.14.2.jpg" alt=""></p><h3 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h3><div style="position: relative; padding: 30% 45%;">2<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=121528041&aid=70156862&page=1&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no"></iframe>3</div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 操作系统 </category>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 操作系统 </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>最短路径问题</title>
       <link href="/2020/05/09/zui-duan-lu/"/>
       <url>/2020/05/09/zui-duan-lu/</url>
