@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta itemprop="name" content="wfy-belief">
+    <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images/img/avatar.png">
+    <meta name="description" itemprop="description" content="记录 | 慎独"">
+    <link rel=" shortcut icon" href="https://cdn.jsdelivr.net/gh/wfy-belief/CDN/img/favicon.ico">
+    <title>wfy-belief</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <div id="bg">
+        <div class="backstretch"></div>
+    </div>
+    <div class="container">
+        <header id="header"><a href="#/" class="title router-link-active">wfy-belief</a><span class="subtitle">乾坤未定 |
+                你我皆是黑马</span></header>
+        <div data-v-2cd26717="" class="page">
+            <div data-v-2cd26717="" class="quote"><i class="icon icon-quote-left"></i><span>世界并不完美，却因此而美丽</span><i
+                    class="icon icon-quote-right"></i></div>
+            <div data-v-2cd26717="" class="content">
+                <div data-v-2cd26717="" class="header"><img data-v-2cd26717=""
+                        src="https://cdn.jsdelivr.net/gh/wfy-belief/PicGo-images/img/avatar.png" alt="">
+                    <div data-v-2cd26717="" class="info"><span data-v-2cd26717=""><i data-v-2cd26717=""
+                                class="icon icon-fort-awesome"></i> wfy-belief </span><span data-v-2cd26717=""><i
+                                data-v-2cd26717="" class="icon icon-pagelines"></i> 乾坤未定 | 你我皆是黑马 </span><span
+                            data-v-2cd26717=""><i data-v-2cd26717="" class="icon icon-graduation-cap"></i> <a href="#"
+                                rel="noopener noreferrer">https://blog.wfyblog.cn(暂定)</a> </span><span
+                            data-v-2cd26717=""><i data-v-2cd26717="" class="icon icon-tripadvisor"></i> 大二在校学生 </span>
+                    </div>
+                </div>
+                <div data-v-2cd26717="" class="contact">
+                    <a title="个人主页" data-v-2cd26717="" href="https://www.wfyblog.cn/" rel="noopener noreferrer"
+                        target="_blank"><img data-v-2cd26717="" alt="" src="./img/index.png"></a>
+                    <a title="github" data-v-2cd26717="" href="https://github.com/wfy-belief" rel="noopener noreferrer"
+                        target="_blank"><img data-v-2cd26717="" alt="" src="./img/github.jpg"></a>
+                    <a title="music | 音乐" data-v-2cd26717="" href="https://music.wfyblog.cn" rel="noopener noreferrer"
+                        target="_blank"><img data-v-2cd26717="" alt="" src="./img/music.png"></a>
+                    <a title="notes | 笔记" data-v-2cd26717="" href="https://notes.wfyblog.cn" rel="noopener noreferrer"
+                        target="_blank"><img data-v-2cd26717="" alt="" src="./img/notes.jpg"></a>
+                    <a title="python | 学习记录" data-v-2cd26717="" href="https://python.wfyblog.cn"
+                        rel="noopener noreferrer" target="_blank"><img data-v-2cd26717="" alt=""
+                            src="./img/python.png"></a></div>
+                <div data-v-2cd26717="" class="segment" style="border-color:#f596aa">
+                    <div class="label" style="color:#f596aa"><span>关于</span></div>
+                    <div data-v-2cd26717="" class="markdown">
+                        <p>| wfy-belief | 引导页面 | 致敬我们的相遇 | </p>
+                    </div>
+                </div>
+                <div data-v-2cd26717="" class="segment" style="border-color:#e79460">
+                    <div class="label" style="color:#e79460"><span>一言</span></div>
+                    <div data-v-2cd26717="" class="markdown">
+                        <p class="quote-content">loading....</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="site-info">
+                <p>Copyright <i class="icon icon-copyright"></i> 2020 <i class="icon icon-heart"></i> wfy-belief</p>
+                <p>CDN - <a rel="noopener noreferrer" target="_blank" href="https://www.jsdelivr.com">jsDelivr</a> |
+                    HOST - <a rel="noopener noreferrer" target="_blank" href="https://www.github.com">GITHUB</a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.17/jquery.backstretch.min.js"></script>
+    <script>
+        (function () {
+            var t = [
+                "./img/bg_1.png",
+                "./img/bg_2.png",
+                "./img/bg_3.png",
+                "./img/bg_4.png",
+                "./img/bg_5.png",
+                "./img/bg_6.png",
+                "./img/bg_7.png",
+                "./img/bg_8.png",
+                "./img/bg_9.png"
+            ];
+            window.$("#bg").backstretch(t, {
+                duration: 1e4,
+                alignY: 0,
+                transition: "fade",
+                transitionDuration: 1e3
+            }), $.getJSON("https://v1.hitokoto.cn/?a=g&encode=json", function (t) {
+                var e = "",
+                    i = "";
+                e = t.hitokoto, i = t.from, $(".quote-content").html("「 " + e + " 」——" + i)
+            })
+        })()
+    </script>
+</body>
+
+</html>
